@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./noah.css">
+    <title>Noah</title>
+</head>
+<body>
+    <button onclick="showToe()" id="toeButton">click for toe</button>
+    <img class="hidden" id="toe" src="toe.png" alt="toe">
+</body>
+
+<script>
+    function showToe() {
+        document.getElementById("toe").classList.toggle("hidden")
+    }
+</script>
